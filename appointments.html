@@ -1,0 +1,99 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<!-- Mirrored from www.faizan-khan.com/clinic/appointments.html by HTTrack Website Copier/3.x [XR&CO'2013], Thu, 01 May 2014 04:37:42 GMT -->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Rahma Appointments</title>
+<link rel="shortcut icon" href="assets/favicon.ico" type="image/x-icon"/>
+<link rel="icon" href="assets/favicon.ico" type="image/x-icon"/>
+<link href="scripts/style.css" rel="stylesheet" type="text/css" /><!--[if lte IE 7]>
+<style>
+.content { margin-right: -1px; } /* this 1px negative margin can be placed on any of the columns in this layout with the same corrective effect. */
+ul.nav a { zoom: 1; }  /* the zoom property gives IE the hasLayout trigger it needs to correct extra whiltespace between the links */
+</style>
+<![endif]-->
+
+<script type="text/javascript">
+function showDate(str)
+{
+if (str=="")
+  {
+  document.getElementById("txtHint").innerHTML="";
+  return;
+  }
+if (window.XMLHttpRequest)
+  {// code for IE7+, Firefox, Chrome, Opera, Safari
+  xmlhttp=new XMLHttpRequest();
+  }
+else
+  {// code for IE6, IE5
+  xmlhttp=new ActiveXObject("Microsoft.XMLHTTP");
+  }
+xmlhttp.onreadystatechange=function()
+  {
+  if (xmlhttp.readyState==4 && xmlhttp.status==200)
+    {
+    document.getElementById("txtHint").innerHTML=xmlhttp.responseText;
+    }
+  }
+xmlhttp.open("GET.html","getdates03d2.html?q="+str,true);
+xmlhttp.send();
+}
+</script>
+
+</head>
+
+<body>
+
+<div class="container">
+  <div class="header">
+  	<img src="assets/logo.gif" alt="logo" width="224" height="110"/>
+  	<img src="assets/banner1.jpg" alt="banner" width="743" height="110" border="0"  class="banner" />
+  <!-- end .header --></div>
+  <div class="sidebar1">
+    <ul class="nav">
+      <li><a href="home.html">Home</a></li>
+      <li><a href="clinic.html">Our Clinic</a></li>
+      <li><a href="doctors.html">Our Doctors</a></li>
+      <li><a href="gallery.html">Photo Gallery</a></li>
+      <li><a href="administration.html">Administration</a></li>
+      <li><a href="appointments.html" id="selectedbutton">Appointments</a></li>
+      <li><a href="contact.html">Contact Us</a></li>
+      <li><a href="credits.html">Credits</a></li>
+</ul>
+    
+	 <br/>	
+	<div class="center">    
+	<p class="center">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i>Featured In...</i><br/></p>	
+    	<p><a href="http://www.minnesotamedicine.com/CurrentIssue/PulseMosquesonaMedicalMissionApril2010/tabid/3385/Default.aspx" target="_blank">
+		<img src="assets/minnesotamedicine.gif" alt="logo" width="155" height="122" border="0"/>
+		<img src="assets/mmtrio.jpg" alt="logo" width="155" height="107" border="0"/>
+	</a>
+    </p>
+    </div>
+    <!-- end .sidebar1 --></div>
+  <div class="content">
+    <h2>Appointments</h2>
+    <p><strong>Appointments<br />
+    </strong> 9:00AM - noon on Saturday<br />
+Call Mr. Iqbal Qazi, Monday - Friday from 5-8PM, at 952-431-3433.</p>
+    <p>Appointments are appreciated, but not required.  Walk-Ins are always welcome. Please arrive before 11:30 for walk-ins.</p>
+    <p>
+<div  style="padding-left:15px;">
+  <iframe src="https://docs.google.com/forms/d/1pUzahV6pFfHWQj9RB52DO7cN1juGyHlIUwVJ6EgvxZw/viewform?embedded=true" width="760" height="500" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe><br />
+
+<br>
+<br>
+</p> 
+</div>   
+<!--     <p><img src="assets/waitingroom.jpg" width="500" height="375" /></p>  -->
+    <!-- end .content --></div>
+  <div class="footer">
+    <p class="footer">2010 Rahma Community Clinic</p>
+    <!-- end .footer --></div>
+  <!-- end .container --></div> 
+</body>
+
+<!-- Mirrored from www.faizan-khan.com/clinic/appointments.html by HTTrack Website Copier/3.x [XR&CO'2013], Thu, 01 May 2014 04:37:44 GMT -->
+</html>
